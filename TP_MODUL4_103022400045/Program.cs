@@ -4,10 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        KodePos kodePos = new KodePos();
+        DoorMachine pintu = new DoorMachine();
 
-        int kode = kodePos.getKodePos("Batununggal");
-
-        System.Console.WriteLine("Kode Pos Batununggal: " + kode);
+        pintu.BukaPintu();
+        pintu.KunciPintu();
     }
 }
+
